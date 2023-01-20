@@ -52,36 +52,3 @@ function tweetEvent(eventMsg) {
     }
   }
 
-  /* //The status update or tweet ID in which we will reply
-  var inReplyToStatusId = eventMsg.in_reply_to_status_id_str;
-  //The screen name of the user who we will reply to
-  var inReplyToScreenName = eventMsg.in_reply_to_screen_name;
-  //The tweet ID of the tweet that we will reply to
-  var tweetId = eventMsg.id_str;
-  //If we want to reply to the tweet
-  var reply = false;
-  //If we want to send a direct message
-  var dm = true;
-  //If we want to favorite the tweet
-  var favorite = false;
-  //If we want to retweet
-  var retweet = false;
-
-  //If the tweet is a reply to me
-  if (inReplyToScreenName === 'chaotic_twit') {
-    //Construct our reply
-    var replyText = '@' + screenName + ' Thank you for the tweet!';
-    //Set reply to true
-    reply = true;
-  }
-
-  //If the tweet contains the word 'follow'
-  if (txt.includes('follow')) {
-    //Construct our reply
-    var replyText = '@' + screenName + ' Thank you for the tweet!';
-    //Set reply to true
-    reply = true;
-  }
-
-  //If the tweet contains the word 'dm'
- */
